@@ -6,8 +6,8 @@ Project report in French :
 
 
  * Hardware
-   * part 1: Basys 2
-   * part 2: Cmod S6
+   * 1st time: Basys 2
+   * 2nd time: Cmod S6
 
  * Software : Xilinx ISE 
 
