@@ -1,0 +1,14 @@
+vhdtdtfi -lib work Cmpt.vhd -prj Alarme -o Cmpt.spl -module Cmpt -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Cmpt.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/Cmpt.sym 
+vhdtdtfi -lib work Cmpt.vhd -prj Alarme -o Cmpt.spl -module Cmpt -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Cmpt.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/Cmpt.sym 
+vhdtdtfi -lib work Cmpt.vhd -prj Alarme -o Cmpt.spl -module Cmpt -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Cmpt.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/Cmpt.sym 
+vhdtdtfi -lib work Cmpt.vhd -prj Alarme -o Cmpt.spl -module Cmpt -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Cmpt.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/Cmpt.sym 
+vhdtdtfi -lib work Cmpt.vhd -prj Alarme -o Cmpt.spl -module Cmpt -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Cmpt.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/Cmpt.sym 
+vhdtdtfi -lib work Cmpt.vhd -prj Alarme -o Cmpt.spl -module Cmpt -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Cmpt.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/Cmpt.sym 
+vhdtdtfi -lib work Cmpt.vhd -prj Alarme -o Cmpt.spl -module Cmpt -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e Cmpt.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/Cmpt.sym 

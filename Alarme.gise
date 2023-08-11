@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Alarme.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Cmpt.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="CodeNoir.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="CodeNoir.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="CodeNoir.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="CodeNoir.xst"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="ComparateurCodes.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DFM.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DeDouble4B.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="DeMux.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Disp4D.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Disp4D.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Disp4D.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Disp4D.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Disp4D.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Disp4D.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Disp4D.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Disp4D.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Disp4D.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Disp4D.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Disp4D.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Disp4D.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Disp4D.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Disp4D.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Disp4D.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Disp4D.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Disp4D.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Disp4D.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Disp4D.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Disp4D.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Disp4D.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Disp4D_Demo_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Disp4D_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Disp4D_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Disp4D_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Disp4D_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Disp4D_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Disp4D_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Disp4D_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Disp4D_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Disp4D_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Disp4D_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Disp4D_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Disp4D_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Disp4D_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Disp4D_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Disp4D_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Disp4x7SegRefComp.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="MUX2v1.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="MUX2x1v1x1.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="MUX2x1v1x1.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="MUX2x1v1x1.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="deverouille.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="disp4d.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="disp4d.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="disp4d.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="enregistre0.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="enregistre0.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="enregistre0.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="enregistre_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="genericCount.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="gestionDeverouillage.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="gestionDeverouillage.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="globalRotary.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="globalRotary.vhf"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="rotaryFSM.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="son.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="son.vhf"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1623057498" xil_pn:in_ck="-5273327198743388097" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-36318846942886103" xil_pn:start_ts="1623057495">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="gestionDeverouillage.vhf"/>
+      <outfile xil_pn:name="globalRotary.vhf"/>
+      <outfile xil_pn:name="son.vhf"/>
+    </transform>
+    <transform xil_pn:end_ts="1623057498" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-2055694938336722135" xil_pn:start_ts="1623057498">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1623057498" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1623057498">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1623057498" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="-6301122763526816725" xil_pn:start_ts="1623057498">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1623057646" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-5609353908614239355" xil_pn:start_ts="1623057646">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1623057646" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3211427776935057933" xil_pn:start_ts="1623057646">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1623165411" xil_pn:in_ck="1612407069913538336" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="1627513751000248002" xil_pn:start_ts="1623165402">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Disp4D.lso"/>
+      <outfile xil_pn:name="Disp4D.ngc"/>
+      <outfile xil_pn:name="Disp4D.ngr"/>
+      <outfile xil_pn:name="Disp4D.prj"/>
+      <outfile xil_pn:name="Disp4D.stx"/>
+      <outfile xil_pn:name="Disp4D.syr"/>
+      <outfile xil_pn:name="Disp4D.xst"/>
+      <outfile xil_pn:name="Disp4D_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1623089308" xil_pn:in_ck="109187156994333861" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="-150143537997463040" xil_pn:start_ts="1623089308">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1623165452" xil_pn:in_ck="3266440034326572435" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="8846154618715076884" xil_pn:start_ts="1623165446">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Disp4D.bld"/>
+      <outfile xil_pn:name="Disp4D.ngd"/>
+      <outfile xil_pn:name="Disp4D_ngdbuild.xrpt"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1623165469" xil_pn:in_ck="3316982140840299252" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="8992901359090100112" xil_pn:start_ts="1623165452">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="Disp4D.pcf"/>
+      <outfile xil_pn:name="Disp4D_map.map"/>
+      <outfile xil_pn:name="Disp4D_map.mrp"/>
+      <outfile xil_pn:name="Disp4D_map.ncd"/>
+      <outfile xil_pn:name="Disp4D_map.ngm"/>
+      <outfile xil_pn:name="Disp4D_map.xrpt"/>
+      <outfile xil_pn:name="Disp4D_summary.xml"/>
+      <outfile xil_pn:name="Disp4D_usage.xml"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1623165515" xil_pn:in_ck="-1650028081840299603" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="417176447551133118" xil_pn:start_ts="1623165469">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Disp4D.ncd"/>
+      <outfile xil_pn:name="Disp4D.pad"/>
+      <outfile xil_pn:name="Disp4D.par"/>
+      <outfile xil_pn:name="Disp4D.ptwx"/>
+      <outfile xil_pn:name="Disp4D.unroutes"/>
+      <outfile xil_pn:name="Disp4D.xpi"/>
+      <outfile xil_pn:name="Disp4D_pad.csv"/>
+      <outfile xil_pn:name="Disp4D_pad.txt"/>
+      <outfile xil_pn:name="Disp4D_par.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+    </transform>
+    <transform xil_pn:end_ts="1623165572" xil_pn:in_ck="3308701727062315" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1623165537">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Disp4D.ut"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="disp4d.bgn"/>
+      <outfile xil_pn:name="disp4d.bit"/>
+      <outfile xil_pn:name="disp4d.drc"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1623165576" xil_pn:in_ck="4793869265861429" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="8482462020707587906" xil_pn:start_ts="1623165574">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1623058860" xil_pn:in_ck="4793869265861429" xil_pn:name="TRAN_genImpactFile" xil_pn:prop_ck="-7047989797201823252" xil_pn:start_ts="1623058859">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+    </transform>
+    <transform xil_pn:end_ts="1623165515" xil_pn:in_ck="-3354575918971640592" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416185" xil_pn:start_ts="1623165511">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <outfile xil_pn:name="Disp4D.twr"/>
+      <outfile xil_pn:name="Disp4D.twx"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+    </transform>
+  </transforms>
+
+</generated_project>

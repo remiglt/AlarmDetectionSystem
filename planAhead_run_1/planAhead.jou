@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7
+# Build 321239 by xbuild on Fri Sep 27 19:31:35 MDT 2013
+# Start of session at: Mon Jun 07 11:18:28 2021
+# Process ID: 19744
+# Log file: U:/projet_elec/Alarme_final_codeur/planAhead_run_1/planAhead.log
+# Journal file: U:/projet_elec/Alarme_final_codeur/planAhead_run_1/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source U:/projet_elec/Alarme_final_codeur/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property iostandard LVCMOS33 [get_ports [list {O1[2]}]]
+save_constraints

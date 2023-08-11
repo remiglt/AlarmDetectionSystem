@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!--This is an ISE project configuration file.-->
+<!--It holds project specific layout data for the projectmgr plugin.-->
+<!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
+<Project version="2" owner="projectmgr" name="Alarme" >
+   <!--This is an ISE project configuration file.-->
+   <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Disp4D - Behavioral D:|Utilisateurs|Stortz|Alarme|Alarme_final|ise147|Disp4D.vhd/CodeNoir1 - CodeNoir - Behavioral</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral D:|Utilisateurs|Stortz|Alarme|Alarme_final|ise147|Disp4D.vhd/CodeNoir2 - CodeNoir - Behavioral</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral D:|Utilisateurs|Stortz|Alarme|Alarme_final|ise147|Disp4D.vhd/CodeNoir3 - CodeNoir - Behavioral</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral D:|Utilisateurs|Stortz|Alarme|Alarme_final|ise147|Disp4D.vhd/CodeNoir4 - CodeNoir - Behavioral</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral D:|Utilisateurs|Stortz|Alarme|Alarme_final|ise147|Disp4D.vhd/gestionDeverouillage - gestionDeverouillage</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral D:|Utilisateurs|Stortz|Alarme|Alarme_final|ise147|Disp4D.vhd/son - son</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral E:|ENSEA|cours|S6|projet_elec|Alarme|Alarme_final_codeur|Disp4D.vhd/CodeNoir1 - CodeNoir - Behavioral</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral E:|ENSEA|cours|S6|projet_elec|Alarme|Alarme_final_codeur|Disp4D.vhd/CodeNoir2 - CodeNoir - Behavioral</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral E:|ENSEA|cours|S6|projet_elec|Alarme|Alarme_final_codeur|Disp4D.vhd/CodeNoir4 - CodeNoir - Behavioral</ClosedNode>
+         <ClosedNode>/Disp4D - Behavioral U:|projet_elec|Alarme_final_codeur|Disp4D.vhd/globalRotary - globalRotary</ClosedNode>
+         <ClosedNode>/Disp4D_Demo D:|Utilisateurs|DITN|Projets|Alarme|ise147|Disp4D_Demo.sch</ClosedNode>
+         <ClosedNode>/Disp4D_Demo D:|Utilisateurs|Stortz|Alarme|Alarme_final|ise147|Disp4D_Demo.sch</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Disp4D - Behavioral (U:/projet_elec/Alarme_final_codeur/Disp4D.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >5</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001d0000000020000000000000000000000000200000064ffffffff000000810000000300000002000001d00000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Disp4D - Behavioral (U:/projet_elec/Alarme_final_codeur/Disp4D.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000142000000010000000100000000000000000000000064ffffffff000000810000000000000001000001420000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView guiview="File" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000192000000040101000100000000000000000000000064ffffffff000000810000000000000004000000a40000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>button.vhd</CurrentItem>
+   </ItemView>
+   <ItemView guiview="Library" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>deverouille.vhd</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000142000000010001000100000000000000000000000064ffffffff000000810000000000000001000001420000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>deverouille.vhd</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design/Map</ClosedNode>
+         <ClosedNode>Implement Design/Place &amp; Route</ClosedNode>
+         <ClosedNode>Implement Design/Translate</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000142000000010000000100000000000000000000000064ffffffff000000810000000000000001000001420000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Implement Design</ClosedNode>
+         <ClosedNode>Synthesize - XST</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Check Design Rules</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000142000000010000000100000000000000000000000064ffffffff000000810000000000000001000001420000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>Check Design Rules</CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000142000000010000000100000000000000000000000064ffffffff000000810000000000000001000001420000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <SourceProcessView>000000ff0000000000000002000001dd0000011901000000050100000002</SourceProcessView>
+   <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_BMM" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems/>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" />
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Disp4D - Behavioral D:|Utilisateurs|DITN|Projets|Alarme|ise147|Disp4D.vhd</ClosedNode>
+         <ClosedNode>/Disp4D_Demo D:|Utilisateurs|DITN|Alarme|ise147|Disp4D_Demo.sch</ClosedNode>
+         <ClosedNode>/Disp4D_Demo D:|Utilisateurs|DITN|Projets|Alarme|ise147|Disp4D_Demo.sch</ClosedNode>
+         <ClosedNode>/test_demux - behavior D:|Utilisateurs|DITN|Projets|Alarme|ise147|test_demux.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>Enregistre1 - enregistre - Behavioral (D:/Utilisateurs/DITN/Alarme/ise147/registre.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >6</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000202000000010000000100000064000001c5000000020000000000000000000000000200000064ffffffff000000810000000300000002000001c50000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
+      <CurrentItem>Enregistre1 - enregistre - Behavioral (D:/Utilisateurs/DITN/Alarme/ise147/registre.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015f000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015f0000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
+   </ItemView>
+</Project>

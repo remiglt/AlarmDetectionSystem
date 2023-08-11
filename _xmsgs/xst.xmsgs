@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Xst" num="3210" delta="old" >&quot;<arg fmt="%s" index="1">\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Disp4D.vhd</arg>&quot; line <arg fmt="%s" index="2">114</arg>: Output port &lt;<arg fmt="%s" index="3">Modulo_code</arg>&gt; of the instance &lt;<arg fmt="%s" index="4">globalRotary</arg>&gt; is unconnected or connected to loadless signal.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">son/XLXI_1/M_21</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">son/XLXI_1/M_22</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">son/XLXI_1/M_23</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="old" >Node &lt;<arg fmt="%s" index="1">son/XLXI_1/M_24</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt;.
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/A_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir3/A_0&gt; &lt;CodeNoir2/A_0&gt; &lt;CodeNoir1/A_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_0</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_0&gt; &lt;CodeNoir3/Q_0&gt; &lt;CodeNoir1/Q_0&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_1</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_1&gt; &lt;CodeNoir3/Q_1&gt; &lt;CodeNoir1/Q_1&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_2</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_2&gt; &lt;CodeNoir3/Q_2&gt; &lt;CodeNoir1/Q_2&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_3</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_3&gt; &lt;CodeNoir3/Q_3&gt; &lt;CodeNoir1/Q_3&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_4</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_4&gt; &lt;CodeNoir3/Q_4&gt; &lt;CodeNoir1/Q_4&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_5</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_5&gt; &lt;CodeNoir3/Q_5&gt; &lt;CodeNoir1/Q_5&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_6</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_6&gt; &lt;CodeNoir3/Q_6&gt; &lt;CodeNoir1/Q_6&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_7</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_7&gt; &lt;CodeNoir3/Q_7&gt; &lt;CodeNoir1/Q_7&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_8</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_8&gt; &lt;CodeNoir3/Q_8&gt; &lt;CodeNoir1/Q_8&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_9</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_9&gt; &lt;CodeNoir3/Q_9&gt; &lt;CodeNoir1/Q_9&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_10</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_10&gt; &lt;CodeNoir3/Q_10&gt; &lt;CodeNoir1/Q_10&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_11</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_11&gt; &lt;CodeNoir3/Q_11&gt; &lt;CodeNoir1/Q_11&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_12</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_12&gt; &lt;CodeNoir3/Q_12&gt; &lt;CodeNoir1/Q_12&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_13</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_13&gt; &lt;CodeNoir3/Q_13&gt; &lt;CodeNoir1/Q_13&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_14</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_14&gt; &lt;CodeNoir3/Q_14&gt; &lt;CodeNoir1/Q_14&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_15</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_15&gt; &lt;CodeNoir3/Q_15&gt; &lt;CodeNoir1/Q_15&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_20</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_20&gt; &lt;CodeNoir3/Q_20&gt; &lt;CodeNoir1/Q_20&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_16</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_16&gt; &lt;CodeNoir3/Q_16&gt; &lt;CodeNoir1/Q_16&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_21</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_21&gt; &lt;CodeNoir3/Q_21&gt; &lt;CodeNoir1/Q_21&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_17</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_17&gt; &lt;CodeNoir3/Q_17&gt; &lt;CodeNoir1/Q_17&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_22</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_22&gt; &lt;CodeNoir3/Q_22&gt; &lt;CodeNoir1/Q_22&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_18</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_18&gt; &lt;CodeNoir3/Q_18&gt; &lt;CodeNoir1/Q_18&gt; </arg>
+</msg>
+
+<msg type="info" file="Xst" num="2261" delta="old" >The FF/Latch &lt;<arg fmt="%s" index="1">CodeNoir4/Q_19</arg>&gt; in Unit &lt;<arg fmt="%s" index="2">Disp4D</arg>&gt; is equivalent to the following <arg fmt="%s" index="3">3 FFs/Latches</arg>, which will be removed : <arg fmt="%s" index="4">&lt;CodeNoir2/Q_19&gt; &lt;CodeNoir3/Q_19&gt; &lt;CodeNoir1/Q_19&gt; </arg>
+</msg>
+
+</messages>
+
