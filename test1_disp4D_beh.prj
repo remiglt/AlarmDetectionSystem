@@ -1,0 +1,5 @@
+vhdl work "Disp4x7SegRefComp.vhd"
+vhdl work "DeMux.vhd"
+vhdl work "button.vhd"
+vhdl work "Disp4D.vhd"
+vhdl work "test1_disp4D.vhd"

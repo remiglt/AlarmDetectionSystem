@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "D:/Utilisateurs/DITN/Alarme/ise147/test_CodeNoir_isim_beh.exe" -prj "D:/Utilisateurs/DITN/Alarme/ise147/test_CodeNoir_beh.prj" "work.test_CodeNoir" 

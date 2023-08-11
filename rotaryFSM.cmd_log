@@ -1,0 +1,2 @@
+vhdtdtfi -lib work codeur_Rot.vhd -prj Alarme -o rotaryFSM.spl -module rotaryFSM -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e rotaryFSM.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final_codeur/rotaryFSM.sym 

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work genericCount.vhd -prj Alarme -o genericCount.spl -module genericCount -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e genericCount.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final_codeur/genericCount.sym 

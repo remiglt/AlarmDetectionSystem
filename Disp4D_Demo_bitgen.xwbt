@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=D:\Utilisateurs\DITN\Projets\Alarme\ise147\Disp4D_Demo.ncd
+OUTFILE=D:\Utilisateurs\DITN\Projets\Alarme\ise147\Disp4D_Demo.bit
+FAMILY=Spartan3E
+PART=xc3s100e-5cp132
+WORKINGDIR=D:\Utilisateurs\DITN\Projets\Alarme\ise147
+LICENSE=WebPack
+USER_INFO=210647190_0_0_708

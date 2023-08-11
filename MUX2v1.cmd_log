@@ -1,0 +1,2 @@
+vhdtdtfi -lib work Mux2v1.vhd -prj Alarme -o MUX2v1.spl -module MUX2v1 -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e MUX2v1.spl D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/MUX2v1.sym 

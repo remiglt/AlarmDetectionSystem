@@ -1,0 +1,3 @@
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,U:/projet_elec/Alarme_final_codeur/son.vhf,-w,U:/projet_elec/Alarme_final_codeur/son.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,U:/projet_elec/Alarme_final_codeur/globalRotary.vhf,-w,U:/projet_elec/Alarme_final_codeur/globalRotary.sch
+sch2hdl,-intstyle,ise,-family,spartan6,-flat,-suppress,-vhdl,U:/projet_elec/Alarme_final_codeur/gestionDeverouillage.vhf,-w,U:/projet_elec/Alarme_final_codeur/gestionDeverouillage.sch

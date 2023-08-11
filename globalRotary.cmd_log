@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl globalRotary_drc.vhf -w D:/Utilisateurs/Stortz/Alarme/Alarme_final_codeur/globalRotary.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl globalRotary_drc.vhf -w D:/Utilisateurs/Stortz/Alarme/Alarme_final_codeur/globalRotary.sch 
+sch2sym -intstyle ise -family spartan3e -refsym globalRotary D:/Utilisateurs/Stortz/Alarme/Alarme_final_codeur/globalRotary.sch D:/Utilisateurs/Stortz/Alarme/Alarme_final_codeur/globalRotary.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl globalRotary.vhf -w D:/Utilisateurs/Stortz/Alarme/Alarme_final_codeur/globalRotary.sch 

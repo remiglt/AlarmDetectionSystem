@@ -1,0 +1,5 @@
+MODULE globalRotary
+	SUBMODULE rotaryFSM
+		INSTANCE XLXI_1
+	SUBMODULE genericCount
+		INSTANCE XLXI_2

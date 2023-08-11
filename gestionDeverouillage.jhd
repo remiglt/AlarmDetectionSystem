@@ -1,0 +1,7 @@
+MODULE gestionDeverouillage
+	SUBMODULE DFM
+		INSTANCE DFM1
+	SUBMODULE ComparateurCodes
+		INSTANCE comp1
+	SUBMODULE deverouille
+		INSTANCE dev1

@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -refsym gestionDeverouillage D:/Utilisateurs/DITN/Projets/Alarme/ise147/gestionDeverouillage.sch D:/Utilisateurs/DITN/Projets/Alarme/ise147/gestionDeverouillage.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl gestionDeverouillage_drc.vhf -w D:/Utilisateurs/DITN/Projets/Alarme/ise147/gestionDeverouillage.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl gestionDeverouillage_drc.vhf -w D:/Utilisateurs/DITN/Projets/Alarme/ise147/gestionDeverouillage.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl gestionDeverouillage.vhf -w D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/gestionDeverouillage.sch 

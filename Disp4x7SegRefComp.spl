@@ -1,0 +1,10 @@
+[Inputs]
+CLK
+=DataA[3:0]=
+=DataB[3:0]=
+=DataC[3:0]=
+=DataD[3:0]=
+[Outputs]
+=Anodes[3:0]=
+=Cathodes[6:0]=
+[BiDir]

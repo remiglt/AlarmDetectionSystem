@@ -1,0 +1,4 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl son_drc.vhf -w D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/son.sch 
+sch2sym -intstyle ise -family spartan3e -refsym son D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/son.sch D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/son.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl son_drc.vhf -w D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/son.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl son_drc.vhf -w D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/son.sch 

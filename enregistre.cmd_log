@@ -1,0 +1,1 @@
+vhdtdtfi -prj Alarme -o D:/Utilisateurs/Stortz/Alarme/Alarme_final/ise147/enregistre.vhi -module enregistre -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work registre.vhd 

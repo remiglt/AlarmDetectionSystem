@@ -1,0 +1,142 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\PROGRAMS\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v
+3 -s 5 -n 3 -fastpaths -xml Disp4D_Demo.twx Disp4D_Demo.ncd -o Disp4D_Demo.twr
+Disp4D_Demo.pcf -ucf Disp4D_Demo.ucf
+
+Design file:              Disp4D_Demo.ncd
+Physical constraint file: Disp4D_Demo.pcf
+Device,package,speed:     xc3s100e,cp132,-5 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock Horloge to Pad
+------------+------------+------------------+--------+
+            | clk (edge) |                  | Clock  |
+Destination |   to PAD   |Internal Clock(s) | Phase  |
+------------+------------+------------------+--------+
+Anodes<0>   |   10.378(R)|Horloge_BUFGP     |   0.000|
+Anodes<1>   |   10.384(R)|Horloge_BUFGP     |   0.000|
+Anodes<2>   |   10.106(R)|Horloge_BUFGP     |   0.000|
+Anodes<3>   |   10.321(R)|Horloge_BUFGP     |   0.000|
+Cathodes<0> |   12.134(R)|Horloge_BUFGP     |   0.000|
+Cathodes<1> |   11.628(R)|Horloge_BUFGP     |   0.000|
+Cathodes<2> |   12.268(R)|Horloge_BUFGP     |   0.000|
+Cathodes<3> |   12.098(R)|Horloge_BUFGP     |   0.000|
+Cathodes<4> |   11.774(R)|Horloge_BUFGP     |   0.000|
+Cathodes<5> |   11.139(R)|Horloge_BUFGP     |   0.000|
+Cathodes<6> |   12.363(R)|Horloge_BUFGP     |   0.000|
+------------+------------+------------------+--------+
+
+Clock to Setup on destination clock Horloge
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Horloge        |    3.438|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+DataOne<0>     |Cathodes<0>    |    7.950|
+DataOne<0>     |Cathodes<1>    |    8.274|
+DataOne<0>     |Cathodes<2>    |    8.084|
+DataOne<0>     |Cathodes<3>    |    7.970|
+DataOne<0>     |Cathodes<4>    |    8.206|
+DataOne<0>     |Cathodes<5>    |    7.634|
+DataOne<0>     |Cathodes<6>    |    8.235|
+DataOne<1>     |Cathodes<0>    |    8.568|
+DataOne<1>     |Cathodes<1>    |    9.106|
+DataOne<1>     |Cathodes<2>    |    8.702|
+DataOne<1>     |Cathodes<3>    |    8.538|
+DataOne<1>     |Cathodes<4>    |    8.759|
+DataOne<1>     |Cathodes<5>    |    8.617|
+DataOne<1>     |Cathodes<6>    |    8.803|
+DataOne<2>     |Cathodes<0>    |    8.006|
+DataOne<2>     |Cathodes<1>    |    8.098|
+DataOne<2>     |Cathodes<2>    |    8.140|
+DataOne<2>     |Cathodes<3>    |    8.003|
+DataOne<2>     |Cathodes<4>    |    8.273|
+DataOne<2>     |Cathodes<5>    |    7.498|
+DataOne<2>     |Cathodes<6>    |    8.268|
+DataOne<3>     |Cathodes<0>    |    9.447|
+DataOne<3>     |Cathodes<1>    |    8.658|
+DataOne<3>     |Cathodes<2>    |    9.581|
+DataOne<3>     |Cathodes<3>    |    9.411|
+DataOne<3>     |Cathodes<4>    |    9.087|
+DataOne<3>     |Cathodes<5>    |    8.217|
+DataOne<3>     |Cathodes<6>    |    9.676|
+DataTwo<0>     |Cathodes<0>    |    8.359|
+DataTwo<0>     |Cathodes<1>    |    8.683|
+DataTwo<0>     |Cathodes<2>    |    8.493|
+DataTwo<0>     |Cathodes<3>    |    8.379|
+DataTwo<0>     |Cathodes<4>    |    8.615|
+DataTwo<0>     |Cathodes<5>    |    8.043|
+DataTwo<0>     |Cathodes<6>    |    8.644|
+DataTwo<1>     |Cathodes<0>    |    8.341|
+DataTwo<1>     |Cathodes<1>    |    8.879|
+DataTwo<1>     |Cathodes<2>    |    8.475|
+DataTwo<1>     |Cathodes<3>    |    8.311|
+DataTwo<1>     |Cathodes<4>    |    8.532|
+DataTwo<1>     |Cathodes<5>    |    8.390|
+DataTwo<1>     |Cathodes<6>    |    8.576|
+DataTwo<2>     |Cathodes<0>    |    8.547|
+DataTwo<2>     |Cathodes<1>    |    8.639|
+DataTwo<2>     |Cathodes<2>    |    8.681|
+DataTwo<2>     |Cathodes<3>    |    8.544|
+DataTwo<2>     |Cathodes<4>    |    8.814|
+DataTwo<2>     |Cathodes<5>    |    8.039|
+DataTwo<2>     |Cathodes<6>    |    8.809|
+DataTwo<3>     |Cathodes<0>    |    8.873|
+DataTwo<3>     |Cathodes<1>    |    8.084|
+DataTwo<3>     |Cathodes<2>    |    9.007|
+DataTwo<3>     |Cathodes<3>    |    8.837|
+DataTwo<3>     |Cathodes<4>    |    8.513|
+DataTwo<3>     |Cathodes<5>    |    7.643|
+DataTwo<3>     |Cathodes<6>    |    9.102|
+---------------+---------------+---------+
+
+
+Analysis completed Mon Mar 15 11:45:15 2021 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4504 MB
+
+
+
