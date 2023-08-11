@@ -1,0 +1,766 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: Disp4D.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "Disp4D.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "Disp4D"
+Output Format                      : NGC
+Target Device                      : xc6slx4-3-cpg196
+
+---- Source Options
+Top Module Name                    : Disp4D
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Mux2v1.vhd" into library work
+Parsing entity <MUX2v1>.
+Parsing architecture <Behavioral> of entity <mux2v1>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\genericCount.vhd" into library work
+Parsing entity <genericCount>.
+Parsing architecture <Behavioral> of entity <genericcount>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\DFM.vhd" into library work
+Parsing entity <DFM>.
+Parsing architecture <Behavioral> of entity <dfm>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\deverouille.vhd" into library work
+Parsing entity <deverouille>.
+Parsing architecture <Behavioral> of entity <deverouille>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\ComparateurCodes.vhd" into library work
+Parsing entity <ComparateurCodes>.
+Parsing architecture <Behavioral> of entity <comparateurcodes>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\codeur_Rot.vhd" into library work
+Parsing entity <rotaryFSM>.
+Parsing architecture <Behavioral> of entity <rotaryfsm>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Cmpt.vhd" into library work
+Parsing entity <Cmpt>.
+Parsing architecture <Behavioral> of entity <cmpt>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\son.vhf" into library work
+Parsing entity <son>.
+Parsing architecture <BEHAVIORAL> of entity <son>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\registre.vhd" into library work
+Parsing entity <enregistre>.
+Parsing architecture <Behavioral> of entity <enregistre>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\MUX_INIT.vhd" into library work
+Parsing entity <MUX_INIT>.
+Parsing architecture <Behavioral> of entity <mux_init>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\MUX2x4v1x4.vhd" into library work
+Parsing entity <MUX2x4v1x4>.
+Parsing architecture <Behavioral> of entity <mux2x4v1x4>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\MUX2x1v1x1.vhd" into library work
+Parsing entity <MUX2x1v1x1>.
+Parsing architecture <Behavioral> of entity <mux2x1v1x1>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\globalRotary.vhf" into library work
+Parsing entity <globalRotary>.
+Parsing architecture <BEHAVIORAL> of entity <globalrotary>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\gestionDeverouillage.vhf" into library work
+Parsing entity <gestionDeverouillage>.
+Parsing architecture <BEHAVIORAL> of entity <gestiondeverouillage>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Enregistre0.vhd" into library work
+Parsing entity <enregistre0>.
+Parsing architecture <Behavioral> of entity <enregistre0>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\DeMux.vhd" into library work
+Parsing entity <DeMux>.
+Parsing architecture <Behavioral> of entity <demux>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\CodeNoir.vhd" into library work
+Parsing entity <CodeNoir>.
+Parsing architecture <Behavioral> of entity <codenoir>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\button.vhd" into library work
+Parsing entity <seq>.
+Parsing architecture <Behavioral> of entity <seq>.
+Parsing VHDL file "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Disp4D.vhd" into library work
+Parsing entity <Disp4D>.
+Parsing architecture <Behavioral> of entity <disp4d>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating entity <Disp4D> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <gestionDeverouillage> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <ComparateurCodes> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <deverouille> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <DFM> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <seq> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\button.vhd" Line 104. Case statement is complete. others clause is never selected
+
+Elaborating entity <DeMux> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <enregistre0> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <CodeNoir> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX2x4v1x4> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX2x1v1x1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX_INIT> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <enregistre> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <son> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <Cmpt> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <MUX2v1> (architecture <Behavioral>) from library <work>.
+
+Elaborating entity <globalRotary> (architecture <BEHAVIORAL>) from library <work>.
+
+Elaborating entity <rotaryFSM> (architecture <Behavioral>) from library <work>.
+INFO:HDLCompiler:679 - "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\codeur_Rot.vhd" Line 99. Case statement is complete. others clause is never selected
+
+Elaborating entity <genericCount> (architecture <Behavioral>) with generics from library <work>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <Disp4D>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Disp4D.vhd".
+INFO:Xst:3210 - "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Disp4D.vhd" line 114: Output port <Modulo_code> of the instance <globalRotary> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <Disp4D> synthesized.
+
+Synthesizing Unit <gestionDeverouillage>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\gestionDeverouillage.vhf".
+    Summary:
+	no macro.
+Unit <gestionDeverouillage> synthesized.
+
+Synthesizing Unit <ComparateurCodes>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\ComparateurCodes.vhd".
+    Found 4-bit comparator equal for signal <code_correct> created at line 56
+    Summary:
+	inferred   1 Comparator(s).
+	inferred   1 Multiplexer(s).
+Unit <ComparateurCodes> synthesized.
+
+Synthesizing Unit <deverouille>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\deverouille.vhd".
+    Found 3-bit register for signal <present>.
+    Found finite state machine <FSM_0> for signal <present>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 17                                             |
+    | Inputs             | 3                                              |
+    | Outputs            | 9                                              |
+    | Clock              | clk (rising_edge)                              |
+    | Power Up State     | etat0                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <deverouille> synthesized.
+
+Synthesizing Unit <DFM>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\DFM.vhd".
+    Found 1-bit register for signal <BtnPrev>.
+    Found 2-bit register for signal <Q>.
+    Found 1-bit register for signal <BtnCurr>.
+    Summary:
+	inferred   4 D-type flip-flop(s).
+Unit <DFM> synthesized.
+
+Synthesizing Unit <seq>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\button.vhd".
+    Found 3-bit register for signal <ETAT_PR>.
+    Found finite state machine <FSM_1> for signal <ETAT_PR>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 18                                             |
+    | Inputs             | 7                                              |
+    | Outputs            | 8                                              |
+    | Clock              | CLK (rising_edge)                              |
+    | Power Up State     | etat1                                          |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Multiplexer(s).
+	inferred   1 Finite State Machine(s).
+Unit <seq> synthesized.
+
+Synthesizing Unit <DeMux>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\DeMux.vhd".
+    Summary:
+	inferred   4 Multiplexer(s).
+Unit <DeMux> synthesized.
+
+Synthesizing Unit <enregistre0>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Enregistre0.vhd".
+    Found 4-bit register for signal <Q>.
+    Found 4-bit register for signal <M>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <enregistre0> synthesized.
+
+Synthesizing Unit <CodeNoir>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\CodeNoir.vhd".
+    Found 1-bit register for signal <A>.
+    Found 23-bit register for signal <Q>.
+    Found 23-bit adder for signal <Q[22]_GND_15_o_add_1_OUT> created at line 51.
+    Found 23-bit comparator lessequal for signal <Q[22]_GND_15_o_LessThan_4_o> created at line 53
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  24 D-type flip-flop(s).
+	inferred   1 Comparator(s).
+Unit <CodeNoir> synthesized.
+
+Synthesizing Unit <MUX2x4v1x4>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\MUX2x4v1x4.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2x4v1x4> synthesized.
+
+Synthesizing Unit <MUX2x1v1x1>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\MUX2x1v1x1.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2x1v1x1> synthesized.
+
+Synthesizing Unit <MUX_INIT>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\MUX_INIT.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX_INIT> synthesized.
+
+Synthesizing Unit <enregistre>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\registre.vhd".
+    Found 4-bit register for signal <Q>.
+    Found 4-bit register for signal <M>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <enregistre> synthesized.
+
+Synthesizing Unit <son>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\son.vhf".
+    Summary:
+	no macro.
+Unit <son> synthesized.
+
+Synthesizing Unit <Cmpt>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Cmpt.vhd".
+    Found 25-bit register for signal <M>.
+    Found 25-bit adder for signal <M[24]_GND_21_o_add_0_OUT> created at line 1241.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  25 D-type flip-flop(s).
+Unit <Cmpt> synthesized.
+
+Synthesizing Unit <MUX2v1>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\Mux2v1.vhd".
+    Summary:
+	inferred   1 Multiplexer(s).
+Unit <MUX2v1> synthesized.
+
+Synthesizing Unit <globalRotary>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\globalRotary.vhf".
+    Summary:
+	no macro.
+Unit <globalRotary> synthesized.
+
+Synthesizing Unit <rotaryFSM>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\codeur_Rot.vhd".
+    Found 3-bit register for signal <present>.
+    Found finite state machine <FSM_2> for signal <present>.
+    -----------------------------------------------------------------------
+    | States             | 6                                              |
+    | Transitions        | 14                                             |
+    | Inputs             | 2                                              |
+    | Outputs            | 2                                              |
+    | Clock              | CLK (rising_edge)                              |
+    | Power Up State     | rest                                           |
+    | Encoding           | auto                                           |
+    | Implementation     | LUT                                            |
+    -----------------------------------------------------------------------
+    Summary:
+	inferred   1 Finite State Machine(s).
+Unit <rotaryFSM> synthesized.
+
+Synthesizing Unit <genericCount>.
+    Related source file is "\\galactus\users\link\remiglem33\projet_elec\Alarme_final_codeur\genericCount.vhd".
+        size = 4
+        Modulo = 16
+    Found 4-bit register for signal <q>.
+    Found 4-bit adder for signal <q[3]_GND_25_o_add_5_OUT> created at line 47.
+    Found 4-bit subtractor for signal <GND_25_o_GND_25_o_sub_4_OUT<3:0>> created at line 48.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred   4 D-type flip-flop(s).
+Unit <genericCount> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 6
+ 23-bit adder                                          : 4
+ 25-bit adder                                          : 1
+ 4-bit addsub                                          : 1
+# Registers                                            : 21
+ 1-bit register                                        : 6
+ 2-bit register                                        : 1
+ 23-bit register                                       : 4
+ 25-bit register                                       : 1
+ 4-bit register                                        : 9
+# Comparators                                          : 5
+ 23-bit comparator lessequal                           : 4
+ 4-bit comparator equal                                : 1
+# Multiplexers                                         : 18
+ 1-bit 2-to-1 multiplexer                              : 5
+ 2-bit 2-to-1 multiplexer                              : 1
+ 4-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 3
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <Cmpt>.
+The following registers are absorbed into counter <M>: 1 register on signal <M>.
+Unit <Cmpt> synthesized (advanced).
+
+Synthesizing (advanced) Unit <CodeNoir>.
+The following registers are absorbed into counter <Q>: 1 register on signal <Q>.
+Unit <CodeNoir> synthesized (advanced).
+
+Synthesizing (advanced) Unit <genericCount>.
+The following registers are absorbed into counter <q>: 1 register on signal <q>.
+Unit <genericCount> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 6
+ 23-bit up counter                                     : 4
+ 25-bit up counter                                     : 1
+ 4-bit updown counter                                  : 1
+# Registers                                            : 40
+ Flip-Flops                                            : 40
+# Comparators                                          : 5
+ 23-bit comparator lessequal                           : 4
+ 4-bit comparator equal                                : 1
+# Multiplexers                                         : 12
+ 4-bit 2-to-1 multiplexer                              : 12
+# FSMs                                                 : 3
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_2> on signal <present[1:3]> with sequential encoding.
+--------------------------
+ State        | Encoding
+--------------------------
+ rest         | 000
+ s1           | 010
+ s2           | 001
+ left         | 011
+ right        | 100
+ eventpending | 101
+--------------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <FSM_0> on signal <present[1:3]> with user encoding.
+-------------------
+ State | Encoding
+-------------------
+ etat0 | 000
+ etat1 | 001
+ etat2 | 010
+ etat3 | 011
+ etat4 | 100
+ etat5 | 101
+-------------------
+Analyzing FSM <MFsm> for best encoding.
+Optimizing FSM <Seq/FSM_1> on signal <ETAT_PR[1:3]> with sequential encoding.
+-------------------
+ State | Encoding
+-------------------
+ etat0 | 001
+ etat1 | 000
+ etat2 | 010
+ etat3 | 100
+ etat4 | 011
+ etat5 | 101
+-------------------
+WARNING:Xst:2677 - Node <son/XLXI_1/M_21> of sequential type is unconnected in block <Disp4D>.
+WARNING:Xst:2677 - Node <son/XLXI_1/M_22> of sequential type is unconnected in block <Disp4D>.
+WARNING:Xst:2677 - Node <son/XLXI_1/M_23> of sequential type is unconnected in block <Disp4D>.
+WARNING:Xst:2677 - Node <son/XLXI_1/M_24> of sequential type is unconnected in block <Disp4D>.
+
+Optimizing unit <Disp4D> ...
+
+Optimizing unit <seq> ...
+
+Optimizing unit <enregistre0> ...
+
+Optimizing unit <enregistre> ...
+
+Optimizing unit <genericCount> ...
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/A_0> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir3/A_0> <CodeNoir2/A_0> <CodeNoir1/A_0> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_0> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_0> <CodeNoir3/Q_0> <CodeNoir1/Q_0> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_1> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_1> <CodeNoir3/Q_1> <CodeNoir1/Q_1> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_2> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_2> <CodeNoir3/Q_2> <CodeNoir1/Q_2> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_3> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_3> <CodeNoir3/Q_3> <CodeNoir1/Q_3> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_4> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_4> <CodeNoir3/Q_4> <CodeNoir1/Q_4> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_5> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_5> <CodeNoir3/Q_5> <CodeNoir1/Q_5> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_6> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_6> <CodeNoir3/Q_6> <CodeNoir1/Q_6> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_7> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_7> <CodeNoir3/Q_7> <CodeNoir1/Q_7> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_8> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_8> <CodeNoir3/Q_8> <CodeNoir1/Q_8> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_9> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_9> <CodeNoir3/Q_9> <CodeNoir1/Q_9> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_10> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_10> <CodeNoir3/Q_10> <CodeNoir1/Q_10> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_11> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_11> <CodeNoir3/Q_11> <CodeNoir1/Q_11> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_12> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_12> <CodeNoir3/Q_12> <CodeNoir1/Q_12> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_13> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_13> <CodeNoir3/Q_13> <CodeNoir1/Q_13> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_14> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_14> <CodeNoir3/Q_14> <CodeNoir1/Q_14> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_15> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_15> <CodeNoir3/Q_15> <CodeNoir1/Q_15> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_20> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_20> <CodeNoir3/Q_20> <CodeNoir1/Q_20> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_16> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_16> <CodeNoir3/Q_16> <CodeNoir1/Q_16> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_21> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_21> <CodeNoir3/Q_21> <CodeNoir1/Q_21> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_17> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_17> <CodeNoir3/Q_17> <CodeNoir1/Q_17> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_22> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_22> <CodeNoir3/Q_22> <CodeNoir1/Q_22> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_18> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_18> <CodeNoir3/Q_18> <CodeNoir1/Q_18> 
+INFO:Xst:2261 - The FF/Latch <CodeNoir4/Q_19> in Unit <Disp4D> is equivalent to the following 3 FFs/Latches, which will be removed : <CodeNoir2/Q_19> <CodeNoir3/Q_19> <CodeNoir1/Q_19> 
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block Disp4D, actual ratio is 7.
+FlipFlop Seq/ETAT_PR_FSM_FFd1 has been replicated 1 time(s)
+FlipFlop Seq/ETAT_PR_FSM_FFd2 has been replicated 1 time(s)
+FlipFlop Seq/ETAT_PR_FSM_FFd3 has been replicated 1 time(s)
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 97
+ Flip-Flops                                            : 97
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : Disp4D.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 242
+#      GND                         : 1
+#      INV                         : 2
+#      LUT1                        : 42
+#      LUT2                        : 2
+#      LUT3                        : 13
+#      LUT4                        : 14
+#      LUT5                        : 62
+#      LUT6                        : 14
+#      MUXCY                       : 47
+#      VCC                         : 1
+#      XORCY                       : 44
+# FlipFlops/Latches                : 97
+#      FD                          : 63
+#      FDE                         : 33
+#      FDR                         : 1
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 28
+#      IBUF                        : 4
+#      OBUF                        : 24
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx4cpg196-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:              97  out of   4800     2%  
+ Number of Slice LUTs:                  149  out of   2400     6%  
+    Number used as Logic:               149  out of   2400     6%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:    153
+   Number with an unused Flip Flop:      56  out of    153    36%  
+   Number with an unused LUT:             4  out of    153     2%  
+   Number of fully used LUT-FF pairs:    93  out of    153    60%  
+   Number of unique control sets:         6
+
+IO Utilization: 
+ Number of IOs:                          29
+ Number of bonded IOBs:                  29  out of    106    27%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 97    |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 3.245ns (Maximum Frequency: 308.157MHz)
+   Minimum input arrival time before clock: 3.350ns
+   Maximum output required time after clock: 6.609ns
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.245ns (frequency: 308.157MHz)
+  Total number of paths / destination ports: 1366 / 130
+-------------------------------------------------------------------------
+Delay:               3.245ns (Levels of Logic = 23)
+  Source:            CodeNoir4/Q_0 (FF)
+  Destination:       CodeNoir4/Q_20 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: CodeNoir4/Q_0 to CodeNoir4/Q_20
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               3   0.447   0.650  CodeNoir4/Q_0 (CodeNoir4/Q_0)
+     INV:I->O              1   0.206   0.000  CodeNoir4/Mcount_Q_lut<0>_INV_0 (CodeNoir4/Mcount_Q_lut<0>)
+     MUXCY:S->O            1   0.172   0.000  CodeNoir4/Mcount_Q_cy<0> (CodeNoir4/Mcount_Q_cy<0>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<1> (CodeNoir4/Mcount_Q_cy<1>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<2> (CodeNoir4/Mcount_Q_cy<2>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<3> (CodeNoir4/Mcount_Q_cy<3>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<4> (CodeNoir4/Mcount_Q_cy<4>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<5> (CodeNoir4/Mcount_Q_cy<5>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<6> (CodeNoir4/Mcount_Q_cy<6>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<7> (CodeNoir4/Mcount_Q_cy<7>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<8> (CodeNoir4/Mcount_Q_cy<8>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<9> (CodeNoir4/Mcount_Q_cy<9>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<10> (CodeNoir4/Mcount_Q_cy<10>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<11> (CodeNoir4/Mcount_Q_cy<11>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<12> (CodeNoir4/Mcount_Q_cy<12>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<13> (CodeNoir4/Mcount_Q_cy<13>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<14> (CodeNoir4/Mcount_Q_cy<14>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<15> (CodeNoir4/Mcount_Q_cy<15>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<16> (CodeNoir4/Mcount_Q_cy<16>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<17> (CodeNoir4/Mcount_Q_cy<17>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<18> (CodeNoir4/Mcount_Q_cy<18>)
+     MUXCY:CI->O           1   0.019   0.000  CodeNoir4/Mcount_Q_cy<19> (CodeNoir4/Mcount_Q_cy<19>)
+     XORCY:CI->O           1   0.180   0.924  CodeNoir4/Mcount_Q_xor<20> (Result<20>)
+     LUT5:I0->O            1   0.203   0.000  CodeNoir4/Q_20_rstpot (CodeNoir4/Q_20_rstpot)
+     FD:D                      0.102          CodeNoir4/Q_20
+    ----------------------------------------
+    Total                      3.245ns (1.671ns logic, 1.574ns route)
+                                       (51.5% logic, 48.5% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 5
+-------------------------------------------------------------------------
+Offset:              3.350ns (Levels of Logic = 3)
+  Source:            capteur (PAD)
+  Destination:       gestionDeverouillage/dev1/present_FSM_FFd3 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: capteur to gestionDeverouillage/dev1/present_FSM_FFd3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.808  capteur_IBUF (capteur_IBUF)
+     LUT3:I0->O            1   0.205   0.808  gestionDeverouillage/dev1/present_FSM_FFd3-In1 (gestionDeverouillage/dev1/present_FSM_FFd3-In1)
+     LUT5:I2->O            1   0.205   0.000  gestionDeverouillage/dev1/present_FSM_FFd3-In4 (gestionDeverouillage/dev1/present_FSM_FFd3-In)
+     FD:D                      0.102          gestionDeverouillage/dev1/present_FSM_FFd3
+    ----------------------------------------
+    Total                      3.350ns (1.734ns logic, 1.616ns route)
+                                       (51.8% logic, 48.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 127 / 24
+-------------------------------------------------------------------------
+Offset:              6.609ns (Levels of Logic = 3)
+  Source:            Seq/ETAT_PR_FSM_FFd1 (FF)
+  Destination:       O1<3> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: Seq/ETAT_PR_FSM_FFd1 to O1<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q              36   0.447   1.577  Seq/ETAT_PR_FSM_FFd1 (Seq/ETAT_PR_FSM_FFd1)
+     LUT3:I0->O            4   0.205   1.028  Seq/ENABLE11 (EN1)
+     LUT5:I0->O            1   0.203   0.579  MUX1/Mmux_O21 (O1_1_OBUF)
+     OBUF:I->O                 2.571          O1_1_OBUF (O1<1>)
+    ----------------------------------------
+    Total                      6.609ns (3.426ns logic, 3.183ns route)
+                                       (51.8% logic, 48.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    3.245|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 7.00 secs
+Total CPU time to Xst completion: 6.40 secs
+ 
+--> 
+
+Total memory usage is 4526776 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    4 (   0 filtered)
+Number of infos    :   25 (   0 filtered)
+

@@ -1,0 +1,5 @@
+set -tmpdir "D:/Utilisateurs/DITN/Projets/Alarme/ise147/xst/projnav.tmp"
+set -xsthdpdir "D:/Utilisateurs/DITN/Projets/Alarme/ise147/xst"
+elaborate
+-ifn DeDouble4B.prj
+-ifmt mixed

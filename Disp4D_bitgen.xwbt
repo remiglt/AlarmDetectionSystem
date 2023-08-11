@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=U:\projet_elec\Alarme_final_codeur\Disp4D.ncd
+OUTFILE=U:\projet_elec\Alarme_final_codeur\Disp4D.bit
+FAMILY=Spartan6
+PART=xc6slx4-3cpg196
+WORKINGDIR=U:\projet_elec\Alarme_final_codeur
+LICENSE=WebPack
+USER_INFO=210647190_0_0_708

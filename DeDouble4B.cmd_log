@@ -1,0 +1,2 @@
+vhdtdtfi -lib work DeDouble4B.vhd -prj Alarme -o DeDouble4B.spl -module DeDouble4B -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DeDouble4B.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/DeDouble4B.sym 

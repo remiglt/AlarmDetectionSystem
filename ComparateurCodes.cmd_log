@@ -1,0 +1,2 @@
+vhdtdtfi -lib work ComparateurCodes.vhd -prj Alarme -o ComparateurCodes.spl -module ComparateurCodes -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e ComparateurCodes.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/ComparateurCodes.sym 

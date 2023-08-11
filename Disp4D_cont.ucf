@@ -1,0 +1,25 @@
+
+
+NET "Anodes[3]" LOC = F12;
+NET "Anodes[2]" LOC = J12;
+NET "Anodes[1]" LOC = M13;
+NET "Anodes[0]" LOC = K14;
+NET "Cathodes[4]" LOC = P12;
+NET "Cathodes[3]" LOC = N11;
+NET "Cathodes[1]" LOC = H12;
+NET "E[3]" LOC = P11;
+NET "E[2]" LOC = L3;
+NET "E[1]" LOC = K3;
+NET "E[0]" LOC = B4;
+NET "btn1" LOC = G12;
+NET "btn2" LOC = C11;
+NET "btn3" LOC = M4;
+NET "btn4" LOC = A7;
+NET "CLK" LOC = B8;
+
+# PlanAhead Generated physical constraints 
+
+NET "Cathodes[6]" LOC = M12;
+NET "Cathodes[0]" LOC = L14;
+NET "Cathodes[5]" LOC = L13;
+NET "Cathodes[2]" LOC = N14;

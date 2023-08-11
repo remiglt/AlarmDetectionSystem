@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.xst" -ofn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Disp4D_Demo.ucf -p xc3s100e-cp132-5 Disp4D_Demo.ngc Disp4D_Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Disp4D_Demo_map.ncd Disp4D_Demo.ngd Disp4D_Demo.pcf 
+par -w -intstyle ise -ol high -t 1 Disp4D_Demo_map.ncd Disp4D_Demo.ncd Disp4D_Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Disp4D_Demo.twx Disp4D_Demo.ncd -o Disp4D_Demo.twr Disp4D_Demo.pcf -ucf Disp4D_Demo.ucf 
+bitgen -intstyle ise -f Disp4D_Demo.ut Disp4D_Demo.ncd 
+xst -intstyle ise -ifn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.xst" -ofn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Disp4D_Demo.ucf -p xc3s100e-cp132-5 Disp4D_Demo.ngc Disp4D_Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Disp4D_Demo_map.ncd Disp4D_Demo.ngd Disp4D_Demo.pcf 
+par -w -intstyle ise -ol high -t 1 Disp4D_Demo_map.ncd Disp4D_Demo.ncd Disp4D_Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Disp4D_Demo.twx Disp4D_Demo.ncd -o Disp4D_Demo.twr Disp4D_Demo.pcf -ucf Disp4D_Demo.ucf 
+bitgen -intstyle ise -f Disp4D_Demo.ut Disp4D_Demo.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Disp4D_Demo.ucf -p xc3s100e-cp132-5 Disp4D_Demo.ngc Disp4D_Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Disp4D_Demo_map.ncd Disp4D_Demo.ngd Disp4D_Demo.pcf 
+par -w -intstyle ise -ol high -t 1 Disp4D_Demo_map.ncd Disp4D_Demo.ncd Disp4D_Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Disp4D_Demo.twx Disp4D_Demo.ncd -o Disp4D_Demo.twr Disp4D_Demo.pcf -ucf Disp4D_Demo.ucf 
+bitgen -intstyle ise -f Disp4D_Demo.ut Disp4D_Demo.ncd 
+xst -intstyle ise -ifn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.xst" -ofn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.syr" 
+xst -intstyle ise -ifn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.xst" -ofn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Disp4D_Demo.ucf -p xc3s100e-cp132-5 Disp4D_Demo.ngc Disp4D_Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Disp4D_Demo_map.ncd Disp4D_Demo.ngd Disp4D_Demo.pcf 
+par -w -intstyle ise -ol high -t 1 Disp4D_Demo_map.ncd Disp4D_Demo.ncd Disp4D_Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Disp4D_Demo.twx Disp4D_Demo.ncd -o Disp4D_Demo.twr Disp4D_Demo.pcf -ucf Disp4D_Demo.ucf 
+bitgen -intstyle ise -f Disp4D_Demo.ut Disp4D_Demo.ncd 
+xst -intstyle ise -ifn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.xst" -ofn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Disp4D_Demo.ucf -p xc3s100e-cp132-5 Disp4D_Demo.ngc Disp4D_Demo.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o Disp4D_Demo_map.ncd Disp4D_Demo.ngd Disp4D_Demo.pcf 
+par -w -intstyle ise -ol high -t 1 Disp4D_Demo_map.ncd Disp4D_Demo.ncd Disp4D_Demo.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml Disp4D_Demo.twx Disp4D_Demo.ncd -o Disp4D_Demo.twr Disp4D_Demo.pcf -ucf Disp4D_Demo.ucf 
+xst -intstyle ise -ifn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.xst" -ofn "D:/Utilisateurs/DITN/Projets/Alarme/ise147/Disp4D_Demo.syr" 
