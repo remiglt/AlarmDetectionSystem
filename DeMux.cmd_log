@@ -1,0 +1,4 @@
+vhdtdtfi -lib work DeMux.vhd -prj Alarme -o DeMux.spl -module DeMux -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DeMux.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/DeMux.sym 
+vhdtdtfi -lib work DeMux.vhd -prj Alarme -o DeMux.spl -module DeMux -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DeMux.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/DeMux.sym 

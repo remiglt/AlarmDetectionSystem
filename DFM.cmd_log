@@ -1,0 +1,4 @@
+vhdtdtfi -lib work DFM.vhd -prj Alarme -o DFM.spl -module DFM -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DFM.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/DFM.sym 
+vhdtdtfi -lib work DFM.vhd -prj Alarme -o DFM.spl -module DFM -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e DFM.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/DFM.sym 

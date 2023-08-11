@@ -1,0 +1,6 @@
+vhdtdtfi -lib work deverouille.vhd -prj Alarme -o deverouille.spl -module deverouille -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e deverouille.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/deverouille.sym 
+vhdtdtfi -lib work deverouille.vhd -prj Alarme -o deverouille.spl -module deverouille -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e deverouille.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/deverouille.sym 
+vhdtdtfi -lib work deverouille.vhd -prj Alarme -o deverouille.spl -module deverouille -template C:/PROGRAMS/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e deverouille.spl D:/Utilisateurs/DITN/Projets/Alarme/ise147/deverouille.sym 
