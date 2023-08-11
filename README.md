@@ -5,7 +5,7 @@ Project report in French :
 [Dossier.pdf](https://github.com/remiglt/AlarmDetectionSystem/files/12324237/Dossier.pdf)
 
 
- * Hardware 
+ * Hardware
    * part 1: Basys 2
    * part 2: Cmod S6
 
